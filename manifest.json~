@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "",
+    "short_name": "QQ",
+    "description": "Web QQ for Chrome",
+    "version": "1.1",
+    "minimum_chrome_version": "28",
+    "icons": {
+        "64": "QQ.png",
+        "128": "128.png",
+        "256": "QQ.png"
+    },
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "permissions": [
+    "unlimitedStorage",
+    "notifications",
+    "webview"]
+}
